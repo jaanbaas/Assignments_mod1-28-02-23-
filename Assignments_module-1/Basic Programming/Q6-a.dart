@@ -1,0 +1,19 @@
+// 6.Write a program to generate following pyramid or triangle like given below using for loop.
+/* a) *
+      **
+      ***
+      ****
+      *****
+      *****
+ */
+
+import 'dart:io';
+void main() {
+  int i, j;
+  for (i = 1; i <= 6; i++) {
+    for (j = 1; j <= i; j++) {
+      stdout.write("*");
+    }
+    print("");
+  }
+}
